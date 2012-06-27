@@ -1,20 +1,17 @@
-<section id="articles">
-  <% for article in articles[0...3] %>
-    <article class="post">
-      <header>
-        <h1><a href="<%= article.path %>"><%= article.title %></a></h1>
-        <span class="date"><%= article.date %></span>
-      </header>
+<div class="main-container">
 
-      <section class="content">
-        <%= article.summary %>
-      </section>
-      <div class="more"><a href="<%= article.path %>">read on &raquo;</a></div>
-    </article>
-  <% end %>
-</section>
+  <div class="banner-container">
+    <div class="banner">
+      <span class="introduction">I'm</span><span class="title">Duda Asfora</span>
+    </div>
+    <div class="banner">
+      <span class="subtitle">(and I'm awesome)</span>
+    </div>
+  </div>
+  
+  <div class="text">
+    Hello there! I’m a 19 years-old student living in Rio de Janeiro and  majoring in Design with emphasis in Digital Media, currently in an internship at Globo.com as an UX designer.
+    Since you stoped by, how about checking out my <a href="/work">work</a>? or maybe you just want to <a href="/contact-me">talk</a>?
+  </div>
 
-<section id="archives">
-  <%= archives[3..-1] %>
-</section>
-
+</div>

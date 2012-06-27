@@ -1,6 +1,6 @@
 title: The Wonderful Wizard of Oz
 author: Lyman Frank Baum
-imagem_capa: "capa_01.png"
+imagem_capa: "capa_02.png"
 date: 1900/05/17
 
 Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry,

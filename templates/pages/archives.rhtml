@@ -1,11 +1,14 @@
-<h1><%= @path %></h1>
-<ul>
-  <% if archives.length > 0 %>
-    <% for entry in archives %>
-      <li>
-        <a href="<%= entry.path %>"><%= entry.title %></a>
-      </li>
+<div class="main-container">
+  <ul class="works">
+    <% if archives.length > 0 %>
+      <% archives.each_with_index do |entry, index| %>
+        <% entry_class = ((index + 1) % 4 == 0) || ((index + 1) % 5 == 0) ? "middle-entry-#{(index + 1).even? ? "even" : "odd"}" : "entry" %>
+        <li class="<%= entry_class %>">
+          <a href="<%= entry.path %>" data-title="<%= entry.path %>">
+            <img src="/images/works/capas/<%= entry.imagem_capa %>">
+          </a>
+        </li>
+      <% end %>
     <% end %>
-  <% end %>
-</ul>
-
+  </ul>
+</div>

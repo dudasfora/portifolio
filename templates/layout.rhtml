@@ -3,16 +3,34 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title><%= title %></title>
   </head>
   <body>
-    <section>
-      <%= yield %> 
-    </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
-    </footer>
+    <div id="header">
+      <a href="/" class="link-logo">
+        <span></span>
+      </a>
+    </div>
+    <div class="left-panel">
+      <ul id="menu">
+        <li>
+          <a href="/">Me</a>
+        </li>
+        <li>
+          <a href="/archives">Work</a>
+        </li>
+        <li>
+          <a href="/contact-me">Contact Me</a>
+        </li>
+        <li>
+          <a href="/stalk-me">Stalk Me</a>
+        </li>
+      </ul>
+    </div>
+    <div class="right-panel">
+      <%= yield %>
+    </div>
   </body>
 </html>
 
