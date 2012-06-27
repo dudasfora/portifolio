@@ -13,17 +13,17 @@
       </a>
     </div>
     <div class="left-panel">
-      <ul id="menu">
-        <li>
+      <ul id="menu" data-path="<%= @path %>">
+        <li class="<%= @path == "index" ? "active" : "" %>">
           <a href="/">Me</a>
         </li>
-        <li>
+        <li class="<%= (@path != "index" && @path != "contact-me") && @path != "stalk-me" ? "active" : "" %>">
           <a href="/archives">Work</a>
         </li>
-        <li>
+        <li class="<%= @path == "contact-me" ? "active" : "" %>">
           <a href="/contact-me">Contact Me</a>
         </li>
-        <li>
+        <li class="<%= @path == "stalk-me" ? "active" : "" %>">
           <a href="/stalk-me">Stalk Me</a>
         </li>
       </ul>
