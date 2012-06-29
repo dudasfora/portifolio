@@ -1,10 +1,50 @@
+@font-face {
+    font-family: 'NeutraText-Book';
+    src: url('/css/fonts/neutratext-book.eot');
+    src: url('/css/fonts/neutratext-book.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/neutratext-book.woff') format('woff'),
+         url('/css/fonts/neutratext-book.ttf') format('truetype'),
+         url('/css/fonts/neutratext-book.svg#neutratext-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeutraText-DemiAlt';
+    src: url('/css/fonts/neutratext-demialt.eot');
+    src: url('/css/fonts/neutratext-demialt.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/neutratext-demialt.woff') format('woff'),
+         url('/css/fonts/neutratext-demialt.ttf') format('truetype'),
+         url('/css/fonts/neutratext-demialt.svg#neutratext-demialt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeutraText-Bold';
+    src: url('/css/fonts/neutratext-bold.eot');
+    src: url('/css/fonts/neutratext-bold.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/neutratext-bold.woff') format('woff'),
+         url('/css/fonts/neutratext-bold.ttf') format('truetype'),
+         url('/css/fonts/neutratext-bold.svg#neutratext-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::selection {
+  background: #1693A5;
+}
+
+::-moz-selection {
+  background: #1693A5;
+}
+
 html {
   margin: 20px;
   margin-top: 0px;
 }
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
   font-size: 16px;
   line-height: 19px;
   padding: 15px;
@@ -13,6 +53,8 @@ body {
 
   background: black url("/images/elements/bg.jpg") no-repeat top center;
   color: #FCF8FF;
+
+  font-family: 'NeutraText-Book';
 }
 header, footer, section, article {
   display: block;
@@ -99,7 +141,6 @@ ul, li {
   list-style-type: none;
 }
 code {
-  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
 }
 pre {
   padding: 20px;
@@ -121,11 +162,11 @@ body > footer {
 }
 
 .left-panel {
-  width: 335px;
+  width: 219px;
 }
 
 .main-container {
-  width: 584px;
+  width: 700px;
 }
 
 #menu {
@@ -135,6 +176,7 @@ body > footer {
 }
 
 #menu a {
+  font-family: 'NeutraText-DemiAlt';
   color: #FCF8FF;
 }
 
@@ -170,11 +212,15 @@ body > footer {
 }
 
 .banner {
-  margin-left: 60px;
+}
+
+.banner.name {
+  text-align: center;
 }
 
 .banner .title {
-  font-size: 60px;
+  font-family: 'NeutraText-Bold';
+  font-size: 90px;
   color: #793D2F;
 }
 
@@ -185,9 +231,18 @@ body > footer {
 }
 
 .banner .subtitle {
+  font-family: 'NeutraText-Bold';
   font-size: 22px;
   color: #793D2F;
-  margin-left: 175px;
+  margin-left: 427px;
+}
+
+.me {
+}
+
+.text {
+  max-width: 516px;
+  margin: 0 auto;
 }
 
 .text a {
@@ -237,7 +292,7 @@ body > footer {
 }
 
 .works li.middle-entry-even {
-  margin-left: 87px;
+  margin-left: 110px;
   margin-top: -70px;
 }
 
