@@ -98,6 +98,12 @@ body > header > h1 {
   margin: 100px 0 15px 0;
   font-weight: normal;
 }
+
+.post {
+  margin: 0 auto;
+  max-width: 516px;
+}
+
 .post header {
   margin-bottom: 10px;
 }
@@ -180,6 +186,10 @@ body > footer {
   color: #FCF8FF;
 }
 
+#menu a:hover {
+  color: #1693A5;
+}
+
 #menu li.active a {
   color: #1693A5;
 }
@@ -204,7 +214,7 @@ body > footer {
 .banner-container {
   margin: 0 auto;
   text-align: left;
-  margin-bottom: 70px;
+  margin-bottom: 55px;
 }
 
 .contact-me .banner-container {
@@ -286,6 +296,10 @@ body > footer {
   margin-top: 87px;
 }
 
+.works {
+  position: absolute;
+}
+
 .works li {
   float: left;
   margin-right: 20px;
@@ -298,4 +312,12 @@ body > footer {
 
 .works li.middle-entry-odd {
   margin-top: -70px;
+}
+
+.details {
+  opacity: .9;
+  position: relative;
+  left: 0;
+  top: -115px;
+  overflow: hidden;
 }
