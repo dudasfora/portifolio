@@ -218,7 +218,7 @@ body > footer {
 }
 
 .contact-me .banner-container {
-  margin-bottom: 120px;
+  margin-bottom: 115px;
 }
 
 .banner {
@@ -298,6 +298,7 @@ body > footer {
 
 .works {
   position: absolute;
+  max-width: 660px;
 }
 
 .works li {
