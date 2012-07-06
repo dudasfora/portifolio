@@ -5,6 +5,10 @@
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title><%= title %></title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
   </head>
   <body>
     <div id="header">
@@ -31,9 +35,6 @@
     <div class="right-panel">
       <%= yield %>
     </div>
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>
 

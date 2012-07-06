@@ -1,21 +1,29 @@
 <div class="main-container">
   <article class="post">
-    <header>
-      <h1><%= title %></h1>
-      <span class="date"><%= date %></span>
-    </header>
-
     <section class="content">
-      <%= body %>
-    </section>
+      <% if template == "vertical" %>
 
-    <section class="comments">
-      <% if @config[:disqus] %>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript" src="http://disqus.com/forums/<%= @config[:disqus] %>/embed.js"> </script>
-        <noscript><a href="http://<%= @config[:disqus] %>.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-      <% end %>
+        <div class="left">
+          <div class="slider">
+            <div class="slides_container">
+              <% imagens.each do |imagem| %>
+                <div><img src="<%= imagem %>" width="357"></div>
+              <% end %>
+            </div>
+            <div class="nav">
+              <div class="button-left"></div>
+              <div class="button-right"></div>
+              <a href="#" title="next" class="next">Next ></a>
+              <a href="#" title="previous" class="prev">< Previous</a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <h1><%= title %></h1>
+          <%= body %>
+        </div>
+      <% else %>
+      <% end%>
     </section>
   </article>
 </div>

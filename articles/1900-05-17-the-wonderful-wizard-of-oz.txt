@@ -2,7 +2,10 @@ title: The Wonderful Wizard of Oz
 author: Lyman Frank Baum
 imagem_capa: "capa_01.png"
 date: 1900/05/17
+template: "vertical"
+imagens: [
+  "http://www.terra.com.br/homem/infograficos/gwyneth-paltrow-x-scarlet-johansson/img/scarlet-johansson-capa.jpg",
+  "http://www.terra.com.br/homem/infograficos/gwyneth-paltrow-x-scarlet-johansson/img/scarlet-johansson-9.jpg"
+]
 
-Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry,
-who was a farmer, and Aunt Em, who was the farmer's wife.
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

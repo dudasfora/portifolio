@@ -59,8 +59,87 @@ body {
 header, footer, section, article {
   display: block;
 }
+
 #content {
 }
+
+.content .left, .content .right {
+  float: left;
+}
+
+.content .left ul, .content .left li {
+  margin: 0;
+  padding: 0;
+}
+
+.content .left {
+  margin-right: 55px;
+}
+
+.content .right {
+  width: 228px;
+}
+
+.content .right h1 {
+  margin: 50px 0;
+  display: inline-block;
+  font-size: 31px;
+  line-height: 31px;
+}
+
+.slides_container {
+  width: 357px;
+  min-height: 487px;
+}
+
+.nav {
+  position: relative;
+  text-align: right;
+  margin-top: 10px;
+
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.nav .button-left, .nav .button-right {
+  position: absolute;
+  background: black;
+  opacity: 0.2;
+
+  width: 114px;
+  height: 45px;
+  z-index: -1;
+}
+
+.nav .button-left {
+  top: 0px;
+  right: 124px;
+}
+
+.nav .button-right {
+  top: 0px;
+  right: 0px;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 13px 23px;
+
+  border-radius: 3px;
+  color: #FBFFCD;
+  z-index: 2;
+}
+
+.nav .prev {
+  margin-right: 24px;
+  float: right;
+}
+
+.nav .next {
+  float: right;
+  margin-right: 13px;
+}
+
 #by {
   font-style: italic;
   margin-right: 5px;
@@ -101,7 +180,7 @@ body > header > h1 {
 
 .post {
   margin: 0 auto;
-  max-width: 516px;
+  max-width: 660px;
 }
 
 .post header {

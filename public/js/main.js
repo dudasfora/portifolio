@@ -1,6 +1,9 @@
-// $(".works li a").mouseenter(function(e) {
-//   $(".details", this).show();
-//
-// }).mouseleave(function(e) {
-//   $(".details", this).hide();
-// });
+$(function() {
+  if ($(".slider div img").length > 0) {
+    $('.slider').slides({
+      generatePagination: false,
+      next: "next",
+      prev: "prev"
+    });
+  }
+});
