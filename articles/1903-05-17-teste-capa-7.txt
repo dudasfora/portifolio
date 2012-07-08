@@ -1,0 +1,12 @@
+title: Teste Capa 7
+author: Lyman Frank Baum
+imagem_capa: "capa_03.png"
+date: 1903/05/17
+template: "horizontal"
+imagens: [
+  "/images/works/Toto/teste_01.jpg",
+  "/images/works/Toto/teste_02.jpg"
+]
+
+
+Dorothy wife.
