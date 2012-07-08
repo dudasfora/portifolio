@@ -13,14 +13,23 @@ module Toto
     def load
       data = if @obj.is_a? String
         # Windows usa \r\n ao invés de \n
-        meta, self[:body] = File.read(@obj).split(/\r?\n\r?\n/, 2)
+        meta, self[:body] = File.read(@obj).gsub(/\r/, '').split(/\r?\n\r?\n/, 2)
 
         # use the date from the filename, or else toto won't find the article
         @obj =~ /\/(\d{4}-\d{2}-\d{2})[^\/]*$/
         ($1 ? {:date => $1} : {}).merge(YAML.load(meta))
       elsif @obj.is_a? Hash
         @obj
-      end.inject({}) {|h, (k,v)| h.merge(k.to_sym => v) }
+      end.inject({}) do |hash, (key, value)|
+        new_key = if key.is_a?(String)
+          # Caracter do mal do windows !.!
+          key.codepoints.reject {|c| c == 65279}.pack("U*")
+        else
+          key
+        end
+
+        hash.merge(new_key.to_sym => value)
+      end
 
       self.taint
       self.update data
