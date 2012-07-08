@@ -1,0 +1,19 @@
+<div class="slider">
+  <div class="slides_container">
+    <% imagens.each do |imagem| %>
+      <div>
+        <% if template == "vertical" %>
+          <img src="<%= imagem %>" width="357">
+        <% else %>
+          <img src="<%= imagem %>" width="585">
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+  <div class="nav">
+    <div class="button-left"></div>
+    <div class="button-right"></div>
+    <a href="#" title="next" class="next">Next ></a>
+    <a href="#" title="previous" class="prev">< Previous</a>
+  </div>
+</div>

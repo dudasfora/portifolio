@@ -1,7 +1,12 @@
-title: The Wonderful Wizard of Oz
+title: Teste Foto Horizontal
 author: Lyman Frank Baum
 imagem_capa: "capa_02.png"
-date: 1900/05/17
+date: 1902/05/17
+template: "horizontal"
+imagens: [
+  "/images/works/Toto/teste_01.jpg",
+  "/images/works/Toto/teste_02.jpg"
+]
 
 Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry,
 who was a farmer, and Aunt Em, who was the farmer's wife.

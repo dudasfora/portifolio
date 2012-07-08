@@ -1,5 +1,15 @@
 require 'toto'
 
+module Toto
+  class Site
+    class Context
+      def to_html_without_layout(page)
+        to_html page, @config
+      end
+    end
+  end
+end
+
 # Rack config
 use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
 use Rack::CommonLogger

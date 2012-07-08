@@ -4,19 +4,7 @@
       <% if template == "vertical" %>
 
         <div class="left">
-          <div class="slider">
-            <div class="slides_container">
-              <% imagens.each do |imagem| %>
-                <div><img src="<%= imagem %>" width="357"></div>
-              <% end %>
-            </div>
-            <div class="nav">
-              <div class="button-left"></div>
-              <div class="button-right"></div>
-              <a href="#" title="next" class="next">Next ></a>
-              <a href="#" title="previous" class="prev">< Previous</a>
-            </div>
-          </div>
+          <%= render "_galeria", :html_without_layout %>
         </div>
         <div class="right">
           <h1><%= title %></h1>
@@ -26,7 +14,25 @@
           </div>
         </div>
       <% else %>
-      <% end%>
+
+        <div class="top">
+          <% if respond_to?(:video) %>
+            <%= video %>
+          <% else %>
+            <%= render "_galeria", :html_without_layout %>
+          <% end %>
+        </div>
+        <div class="bottom">
+          <h1><%= title %></h1>
+          <div class="text-wrapper">
+            <%= body %>
+          </div>
+          <div class="utility">
+            <a class="go-back" href="/archives">Go back</a>
+          </div>
+        </div>
+
+      <% end %>
     </section>
   </article>
 </div>

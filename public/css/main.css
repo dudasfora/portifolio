@@ -87,7 +87,35 @@ header, footer, section, article {
   line-height: 31px;
 }
 
-.slides_container {
+.top {
+  margin-bottom: 30px;
+}
+
+.bottom h1 {
+  display: inline-block;
+  font-size: 31px;
+  margin-bottom: 20px;
+}
+
+.bottom .text-wrapper {
+  margin-left: 30px;
+  width: 550px;
+}
+
+.bottom .utility {
+  width: 585px;
+}
+
+.top .slides_container {
+  width: 585px;
+  min-height: 329px;
+}
+
+.top .nav {
+  width: 585px;
+}
+
+.left .slides_container {
   width: 357px;
   min-height: 487px;
 }
