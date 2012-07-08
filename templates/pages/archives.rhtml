@@ -2,8 +2,7 @@
   <ul class="works">
     <% if archives.length > 0 %>
       <% archives.each_with_index do |entry, index| %>
-        <% entry_class = ((index + 1) % 4 == 0) || ((index + 1) % 5 == 0) ? "middle-entry-#{(index + 1).even? ? "even" : "odd"}" : "entry" %>
-        <li class="<%= entry_class %>">
+        <li class="<%= grid_class(index) %>">
           <a href="<%= entry.path %>" data-title="<%= entry.title %>">
             <img src="/images/works/capas/<%= entry.imagem_capa %>">
             <div class="details" style="display: none;">

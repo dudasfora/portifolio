@@ -429,12 +429,16 @@ body > footer {
   margin-right: 20px;
 }
 
+.works li.first-line-entry {
+  margin-top: 0;
+}
+
 .works li.middle-entry-even {
   margin-left: 110px;
   margin-top: -70px;
 }
 
-.works li.middle-entry-odd {
+.works li.entry, .works li.middle-entry-odd {
   margin-top: -70px;
 }
 
