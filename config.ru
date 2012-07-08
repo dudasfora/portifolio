@@ -42,13 +42,22 @@ module Toto
     class Context
 
       def grid_class index
-        return "first-line-entry" if index == 0 || index == 1 || index == 2
+        @count ||= 0
+        return "first-line-entry index-#{index + 1}" if index == 0 || index == 1 || index == 2
 
-        if ((index + 1) % 4 == 0) || ((index + 1) % 5 == 0)
-          "middle-entry-#{(index + 1).even? ? "even" : "odd"}"
-        else
-          "entry"
+        if @count == 0
+          @count += 1
+          return "middle-entry-even"
         end
+
+        if @count == 1
+          @count += 1
+          return "middle-entry-odd"
+        end
+
+        @count += 1
+        @count = 0 if @count == 5
+        "entry"
       end
 
     end
