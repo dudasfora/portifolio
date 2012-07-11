@@ -4,7 +4,7 @@ imagem_capa: "anne_capa.png"
 date: 1902/05/17
 template: "horizontal"
 imagens: [
-  "/images/works/anne/anne.png",
+  "/images/works/anne/anne.jpg",
   "/images/works/anne/anne_2.png"
 ]
 
