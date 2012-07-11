@@ -6,4 +6,4 @@ template: "horizontal"
 video: <iframe src="http://player.vimeo.com/video/45547901" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 My first try at making an ocean with 3D MAX. 
-Got the ocean and seagulls sounds at <a href="freesound.org"> freesound.org </a>  <a href="freesound.org/people/hazure/sounds/23707/> from Hazure. </a>
+Got the ocean and seagulls sounds at freesound.org (freesound.org/people/hazure/sounds/23707/) from Hazure.
