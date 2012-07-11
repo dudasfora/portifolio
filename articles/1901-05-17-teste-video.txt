@@ -3,7 +3,7 @@ author: Lyman Frank Baum
 imagem_capa: "capa_05.png"
 date: 1901/05/17
 template: "horizontal"
-video: <iframe src="http://player.vimeo.com/video/40401367" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+video: <iframe src="http://player.vimeo.com/video/45547901" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry,
 who was a farmer, and Aunt Em, who was the farmer's wife.
