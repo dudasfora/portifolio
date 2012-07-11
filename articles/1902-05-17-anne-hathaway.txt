@@ -8,7 +8,7 @@ imagens: [
   "/images/works/anne/anne_2.png"
 ]
 
-In my first semester in College, my teacher asked us to vectorize an actress of your like, I choose Anne Hathaway and ended up liking the outcome.
+In my first semester in College, my teacher asked us to vectorize an actress of our like, I choose Anne Hathaway and ended up liking the outcome.
 After a while I decided to play with it a little more, and what started as an different Anne representing the colors of different Countrys ended up as
 a colorfull painel. 
 
