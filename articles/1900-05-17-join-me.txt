@@ -9,9 +9,11 @@ imagens: [
 ]
 
 
-Projeto desenvolvido com Carolina Ferraz e exposto na semana de Design da PUC-RIO em 2011
+Projeto desenvolvido com [Carolina Ferraz][01] e exposto na semana de Design da PUC-RIO em 2011.
 "Join Me" é um aplicativo para Iphone desenvolvido para facilitar o encontro entre os amigos. O aplicativo foi criado para jovens que desejam localizar
  os amigos que estão próximos à ele e assim, interagir com eles de maneira rápida e simples através de mensagens de texto ou ligações. Além da localização,
  JoinMe também possibilita a visualização da disponibilidade (ocupado ou livre) dos contatos do usuário do aplicativo, ou seja, este poderá ver se pode ou não 
  interagir com seus amigos naquele determinado momento. Com opções de privacidade, disponibilidade e novas maneiras de visualização rápida de seus amigos, Join
  Me é simples e eficiente para aqueles que desejam se comunicar com seus amigos.
+
+[01]: http://carolinaferrazsf.carbonmade.com/
