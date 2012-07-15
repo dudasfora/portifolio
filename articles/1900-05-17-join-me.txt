@@ -1,6 +1,6 @@
 ﻿title: Join Me
 author: Lyman Frank Baum
-imagem_capa: "joinme.png"
+imagem_capa: "joinme_capa.png"
 date: 1900/05/17
 template: "vertical"
 imagens: [
