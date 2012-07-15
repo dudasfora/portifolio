@@ -8,4 +8,10 @@ imagens: [
   "/images/works/joinme/join_me_01.png"
 ]
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Projeto desenvolvido com Carolina Ferraz e exposto na semana de Design da PUC-RIO em 2011
+"Join Me" é um aplicativo para Iphone desenvolvido para facilitar o encontro entre os amigos. O aplicativo foi criado para jovens que desejam localizar
+ os amigos que estão próximos à ele e assim, interagir com eles de maneira rápida e simples através de mensagens de texto ou ligações. Além da localização,
+ JoinMe também possibilita a visualização da disponibilidade (ocupado ou livre) dos contatos do usuário do aplicativo, ou seja, este poderá ver se pode ou não 
+ interagir com seus amigos naquele determinado momento. Com opções de privacidade, disponibilidade e novas maneiras de visualização rápida de seus amigos, Join
+ Me é simples e eficiente para aqueles que desejam se comunicar com seus amigos.
