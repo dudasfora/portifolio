@@ -1,7 +1,7 @@
 title: Summer Time
 author: Lyman Frank Baum
 imagem_capa: "summer_time.png"
-date: 1901/05/17
+date: 1901/05/30
 template: "horizontal"
 video: <iframe src="http://player.vimeo.com/video/45547901" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
