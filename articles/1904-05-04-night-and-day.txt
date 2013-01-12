@@ -5,7 +5,7 @@ date: 1904/05/04
 template: "horizontal"
 video: <iframe src="http://player.vimeo.com/video/52227820" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-After watching Andrew Price's [tutorial][01] on how to make a realistic eath, I decided to make my own so I could tweak with the materials and see how they work and how far can you take them. In this project the
+After watching Andrew Price's [tutorial][01] on how to make a realistic earth, I decided to make my own so I could tweak with the materials and see how they work and how far can you take them. In this project the
 modeling is a simple sphere where all the focus is on the material
 and the transition from day to night, wich I accomplished with the
 composition nodes that Blender has.
