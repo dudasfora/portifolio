@@ -1,7 +1,7 @@
 ﻿title: Globo Dev
 author: Lyman Frank Baum
 imagem_capa: "globo_dev.png"
-date: 1902/05/04
+date: 1903/05/04
 template: "horizontal"
 imagens: [
   "/images/works/dev/home.jpg",
