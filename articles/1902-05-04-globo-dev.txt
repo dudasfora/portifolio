@@ -1,4 +1,4 @@
-title: Globo Dev
+ï»¿title: Globo Dev
 author: Lyman Frank Baum
 imagem_capa: "globo_dev.png"
 date: 1902/05/04
@@ -19,7 +19,7 @@ globo.com who wanted to share useful tips with the dev
 community. I needed to do it in one
 afternoon so it could be developed during the night. Also it needed
 to be simple. The main focus is the content, so I had to make
-something that wouldn’t stand out to much while still being
+something that wouldn't stand out to much while still being
 recognizable and memorable.
 
 
