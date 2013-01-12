@@ -4,8 +4,8 @@ imagem_capa: "globo_dev.png"
 date: 1902/05/31
 template: "horizontal"
 imagens: [
-  "/images/works/anne/anne.jpg",
-  "/images/works/anne/anne_2.png"
+  "/images/works/dev/home.jpg",
+  "/images/works/dev/col.jpg"
 ]
 
 To see the layout in a better resolution please, [click here][01]
