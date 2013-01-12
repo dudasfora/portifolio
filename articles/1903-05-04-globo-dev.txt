@@ -5,7 +5,9 @@ date: 1903/05/04
 template: "horizontal"
 imagens: [
   "/images/works/dev/home.jpg",
-  "/images/works/dev/col.jpg"
+  "/images/works/dev/post.jpg",
+  "/images/works/dev/col.jpg",
+  "/images/works/dev/archive.jpg"
 ]
 
 To see the complete layout in a better resolution please, [click here][01]
