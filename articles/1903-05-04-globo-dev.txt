@@ -8,7 +8,7 @@ imagens: [
   "/images/works/dev/col.jpg"
 ]
 
-To see the layout in a better resolution please, [click here][01]
+To see the complete layout in a better resolution please, [click here][01]
 
 On the 18th and 19th,October 2012, was held at globo.com a
 FedEx Day, a hackathon that began at 2pm on the 18th and
