@@ -1,0 +1,27 @@
+title: Globo Dev
+author: Lyman Frank Baum
+imagem_capa: "globo_dev.png"
+date: 1902/05/31
+template: "horizontal"
+imagens: [
+  "/images/works/anne/anne.jpg",
+  "/images/works/anne/anne_2.png"
+]
+
+To see the layout in a better resolution please, [click here][01]
+
+On the 18th and 19th,October 2012, was held at globo.com a
+FedEx Day, a hackathon that began at 2pm on the 18th and
+ended with the presentation of the project at 4pm on the 19th.
+During this event I created and thought about the layout the
+interactions of an automated tumblr for the developers of
+globo.com who wanted to share useful tips with the dev
+community. I needed to do it in one
+afternoon so it could be developed during the night. Also it needed
+to be simple. The main focus is the content, so I had to make
+something that wouldn’t stand out to much while still being
+recognizable and memorable.
+
+
+
+[01]: https://www.dropbox.com/sh/09i7ophqp0u5mo5/kN0rOKnpbb
