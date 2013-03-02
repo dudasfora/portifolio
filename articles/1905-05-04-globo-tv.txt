@@ -1,0 +1,22 @@
+title: Globo TV
+author: Lyman Frank Baum
+imagem_capa: "globo_tv.png"
+date: 1905/05/04
+template: "horizontal"
+imagens: [
+  "/images/works/globotv/home.jpg",
+  "/images/works/globotv/post.jpg",
+  "/images/works/globotv/col.jpg",
+  "/images/works/globotv/archive.jpg"
+]
+
+
+To see the layout in a better resolution please, [click here][01]
+
+
+After watching Andrew Price's [tutorial][01] on how to make a realistic earth, I decided to make my own so I could tweak with the materials and see how they work and how far can you take them. In this project the
+modeling is a simple sphere where all the focus is on the material
+and the transition from day to night, wich I accomplished with the
+composition nodes that Blender has.
+
+[01]: https://www.dropbox.com/sh/to1zkmtmi75y22c/nDqTO4Ausx?m
