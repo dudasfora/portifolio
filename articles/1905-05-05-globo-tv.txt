@@ -6,7 +6,9 @@ template: "horizontal"
 imagens: [
   "/images/works/globo/web.jpg",
   "/images/works/globo/iphone.jpg",
-  "/images/works/globo/ipad.jpg"
+  "/images/works/globo/ipad.jpg",
+  "images/works/globo/ops_00.jpg",
+  "images/works/globo/ops_01.jpg"
 ]
 
 
