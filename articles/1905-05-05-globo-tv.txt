@@ -5,9 +5,8 @@ date: 1905/05/05
 template: "horizontal"
 imagens: [
   "/images/works/globo/web.jpg",
-  "/images/works/dev/post.jpg",
-  "/images/works/dev/col.jpg",
-  "/images/works/dev/archive.jpg"
+  "/images/works/globo/iphone.jpg",
+  "/images/works/globo/ipad.jpg"
 ]
 
 
