@@ -1,4 +1,4 @@
-﻿title: Globo TV
+title: Globo TV
 author: Lyman Frank Baum
 imagem_capa: "globo_tv.png"
 date: 1905/05/04
