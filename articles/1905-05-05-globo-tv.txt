@@ -7,8 +7,8 @@ imagens: [
   "/images/works/globo/web.jpg",
   "/images/works/globo/iphone.jpg",
   "/images/works/globo/ipad.jpg",
-  "images/works/globo/ops.jpg",
-  "images/works/globo/ops1.jpg"
+  "/images/works/globo/ops.jpg",
+  "/images/works/globo/ops1.jpg"
 ]
 
 
