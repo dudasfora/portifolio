@@ -1,0 +1,22 @@
+title: Globo TV
+author: Lyman Frank Baum
+imagem_capa: "globo_tv.png"
+date: 1905/05/05
+template: "horizontal"
+imagens: [
+  "/images/works/globotv/web.jpg",
+  "/images/works/globotv/iphone.jpg",
+  "/images/works/globotv/ipad.jpg",
+]
+
+
+To see the layout in a better resolution please, [click here][01]
+
+
+My first project at globo.com was the Globo.tv. When I got involved with the project it was already in development but it wasn't on production. I took part in its creation and 
+later on I helped with the responsible design of it. Here you can see the 2.0 version website on different resolutions, which I was responsible for creating under the supervision of Federico 
+Arana, the designer of the project. I was also in charge of creating the error pages, and of couse, its responsible solutions. Besides being part of the creation process, I also was the responsible
+for all image treatment seen on the website.
+
+
+[01]: https://www.dropbox.com/sh/to1zkmtmi75y22c/nDqTO4Ausx?m
