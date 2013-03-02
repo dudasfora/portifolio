@@ -15,7 +15,7 @@ To see the complete layout in a better resolution please, [click here][01]
 On the 18th and 19th,October 2012, was held at globo.com a
 FedEx Day, a hackathon that began at 2pm on the 18th and
 ended with the presentation of the project at 4pm on the 19th.
-During this event I created and thought about the layout the
+During this event I created and thought about the layout and
 interactions of an automated tumblr for the developers of
 globo.com who wanted to share useful tips with the dev
 community. I needed to do it in one
