@@ -4,10 +4,9 @@ imagem_capa: "globo_tv.png"
 date: 1905/05/04
 template: "horizontal"
 imagens: [
-  "/images/works/globotv/home.jpg",
-  "/images/works/globotv/post.jpg",
-  "/images/works/globotv/col.jpg",
-  "/images/works/globotv/archive.jpg"
+  "/images/works/globotv/web.jpg",
+  "/images/works/globotv/iphone.jpg",
+  "/images/works/globotv/ipad.jpg",
 ]
 
 
