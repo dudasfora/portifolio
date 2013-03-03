@@ -20,5 +20,7 @@ later on I helped with the responsible design of it. Here you can see the 2.0 ve
 Arana, the designer of the project. I was also in charge of creating the error pages, and of couse, its responsible solutions. Besides being part of the creation process, I also was the responsible
 for all image treatment seen on the website.
 
+You can find it here [globo.tv][02]
 
 [01]: https://www.dropbox.com/sh/to1zkmtmi75y22c/nDqTO4Ausx?m
+[02]: http://globo.tv
