@@ -1,4 +1,4 @@
-title: Eleições 2012
+title: Eleicoes 2012
 author: Lyman Frank Baum
 imagem_capa: "eleicoes.png"
 date: 1906/05/05
