@@ -9,7 +9,10 @@ imagens: [
   "/images/works/eleicoes/02.jpg",
   "/images/works/eleicoes/03.jpg",
   "/images/works/eleicoes/04.jpg",
-  "/images/works/eleicoes/05.jpg"
+  "/images/works/eleicoes/05.jpg",
+  "/images/works/eleicoes/06.jpg",
+  "/images/works/eleicoes/07.jpg",
+  "/images/works/eleicoes/08.jpg"  
 ]
 
 
