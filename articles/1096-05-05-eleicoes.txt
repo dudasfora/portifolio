@@ -1,7 +1,7 @@
-title: Eleicoes 2012
+title: Eleicoes
 author: Lyman Frank Baum
 imagem_capa: "eleicoes.png"
-date: 1906/06/06
+date: 1906/05/05
 template: "horizontal"
 imagens: [
   "/images/works/globo/web.jpg",
