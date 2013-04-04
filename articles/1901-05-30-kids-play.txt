@@ -5,7 +5,8 @@ date: 1901/05/30
 template: "horizontal"
 video: <iframe src="https://vimeo.com/60982981" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-My first try at making an ocean with 3D MAX. 
+4th assignment for the Motion Graphics 2 class at Parsons the New School For Design. In this assignment the focus was on the 3D enviroment. How to create and move around one.
+
 Music by Moore & Sons called [Harmless Blues][01] from the [Free Music Archive][02]
 
 [01]: http://freemusicarchive.org/music/Moore__Sons/Live_on_Irene_Trudels_Show_on_WFMU_12312/Moore_symbol_Sons_-_04_-_Harmless_Blues
