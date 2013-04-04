@@ -3,7 +3,7 @@ author: Lyman Frank Baum
 imagem_capa: "kids.png"
 date: 1901/05/30
 template: "horizontal"
-video: <iframe src="https://vimeo.com/60982981" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+video: <iframe src="http://player.vimeo.com/video/60982981" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 4th assignment for the Motion Graphics 2 class at Parsons the New School For Design. In this assignment the focus was on the 3D enviroment. How to create and move around one.
 
