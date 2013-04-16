@@ -1,4 +1,4 @@
-title: Bang Bang
+title: Bang
 author: Lyman Frank Baum
 imagem_capa: "bang.png"
 date: 1900/05/30
