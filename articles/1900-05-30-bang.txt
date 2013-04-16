@@ -1,12 +1,12 @@
 title: Bang Bang
 author: Lyman Frank Baum
-imagem_capa: "kids.png"
+imagem_capa: "bang.png"
 date: 1900/05/30
 template: "horizontal"
 video: <iframe src="http://player.vimeo.com/video/63615274" width="585" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 6th assignment for the Motion Graphics 2 class at Parsons the New School For Design.
-In this assignment the focous was on coloring the footage shot by myself and compositing. 
+In this assignment the focous was on coloring the footage, shot by myself, and compositing. 
 
 All sounds were found at [Free Sound][01]
 
